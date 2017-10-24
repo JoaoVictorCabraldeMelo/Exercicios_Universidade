@@ -36,7 +36,7 @@ float pop(pilha* top){
 
 	top->topo = desempilha->prox;/*atualiza o topo*/
 
-	/*free(desempilha);/*da o free*/
+	free(desempilha);/*da o free*/
 
 	return(dado);
 
