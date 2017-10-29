@@ -5,22 +5,21 @@
 
 int main (){
 
+	int contador = 0;
+
 	pilha* Pilha = aloca_pilha();
 
-	push(1, Pilha);
-	push(2, Pilha);
-	push(3, Pilha);
-	push(4, Pilha);
-	push(5, Pilha);
 
-	Print(Pilha);
 
-	pop(Pilha);
+	Menu(Pilha, contador);
+
 	
 
-	Empty(Pilha);
+	
+
 
 	release(Pilha);
+
 
 
 	
