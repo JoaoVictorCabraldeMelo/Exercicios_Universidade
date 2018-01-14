@@ -10,4 +10,4 @@ This is some exercises from URI.
 
 ### Compile 
 
-gcc -g -o <nameofprogram> <file.c>
+gcc -g -o nameofprogram <file.c>
